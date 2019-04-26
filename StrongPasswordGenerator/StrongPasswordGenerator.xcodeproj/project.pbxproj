@@ -60,17 +60,41 @@
 		B8764EBC22736E0D000AC77E /* StrongPasswordGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				B8764ED522739282000AC77E /* Models */,
+				B8764ED622739295000AC77E /* Controllers */,
+				B8764ED7227392A3000AC77E /* Views */,
 				B8764EBD22736E0E000AC77E /* AppDelegate.swift */,
-				B8764EBF22736E0E000AC77E /* ViewController.swift */,
-				B8764EC122736E0E000AC77E /* Main.storyboard */,
 				B8764EC422736E0E000AC77E /* Assets.xcassets */,
-				B8764EC622736E0E000AC77E /* LaunchScreen.storyboard */,
 				B8764EC922736E0E000AC77E /* Info.plist */,
-				B8764ECF2273770A000AC77E /* PasswordsViewController.swift */,
-				B8764ED122737B3B000AC77E /* SecurityTipsViewController.swift */,
-				B8764ED322737BD6000AC77E /* PasswordGenerator.swift */,
 			);
 			path = StrongPasswordGenerator;
+			sourceTree = "<group>";
+		};
+		B8764ED522739282000AC77E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8764ED322737BD6000AC77E /* PasswordGenerator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B8764ED622739295000AC77E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B8764EBF22736E0E000AC77E /* ViewController.swift */,
+				B8764ECF2273770A000AC77E /* PasswordsViewController.swift */,
+				B8764ED122737B3B000AC77E /* SecurityTipsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B8764ED7227392A3000AC77E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8764EC122736E0E000AC77E /* Main.storyboard */,
+				B8764EC622736E0E000AC77E /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
